@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pruebas-3af17": {
+      "hosting": {
+        "examen2Ev": [
+          "pruebas-3af17"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pruebas-3af17"
+  }
+}

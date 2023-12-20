@@ -1,0 +1,8 @@
+<ul class="list-group">
+    <li *ngFor="let candidato of candidatos ;let i=index" class="list-group-item">
+        {{candidato.nombre}} {{candidato.apellidos}} 
+        <!--iconos de lapiz y basura-->
+        <span class="ms-5" (click)="editCandidato(candidato.dni)"><i class="bi bi-pencil-square"></i></span>
+        <span class="ms-5" (click)="deleteCandidato(candidato.id)"><i class="bi bi-trash-fill"></i></span>
+    </li>
+</ul>

@@ -1,0 +1,8 @@
+<ul class="list-group">
+  <li *ngFor="let puestos of puestos_disp ;let i=index" class="list-group-item">
+      {{puestos.puesto}} - {{puestos.empresa}} - {{puestos.disponible}}
+      <!--iconos de lapiz y basura-->
+   
+      <span class="ms-5" (click)="eliminarPuesto(puestos.id)"><i class="bi bi-trash-fill"></i></span>
+  </li>
+</ul>
